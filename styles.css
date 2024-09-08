@@ -1,0 +1,193 @@
+body {
+  background-color: #f9f9f9;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+}
+
+h1 {
+  font-weight: bold;
+  color: #007bff;
+  font-size: 2.5rem;
+}
+
+.letter-box {
+  width: 35px;
+  height: 35px;
+  border: 2px solid #007bff;
+  border-radius: 8px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 0 3px;
+  color: #007bff;
+}
+
+.alphabet-btn {
+  width: 45px;
+  height: 45px;
+  margin: 5px;
+  border-radius: 20%;
+  transition: all 0.2s ease;
+}
+
+.score-container {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px;
+  border-radius: 8px;
+  text-align: center;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.score-container span {
+  font-size: 1.5rem;
+}
+
+#message {
+  font-size: 1.2rem;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+  border-color: #0056b3;
+}
+
+.btn-danger {
+  background-color: #dc3545;
+  border-color: #dc3545;
+}
+
+.btn-danger:hover {
+  background-color: #c82333;
+  border-color: #bd2130;
+}
+
+.btn-secondary {
+  background-color: #6c757d;
+  border-color: #6c757d;
+}
+
+.btn-secondary:hover {
+  background-color: #5a6268;
+  border-color: #545b62;
+}
+
+#alphabet-container button {
+  color: #007bff;
+  border-color: #007bff;
+}
+
+#alphabet-container button:hover {
+  color: #fff;
+}
+
+#alphabet-container button.btn-success {
+  color: #fff;
+}
+
+#alphabet-container button.btn-danger {
+  color: #fff;
+}
+
+.game-info {
+  font-size: 1rem;
+  color: #666;
+}
+
+.container {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2rem;
+  }
+
+  .letter-box {
+    width: 40px;
+    height: 40px;
+    font-size: 1.2rem;
+    margin: 0 3px;
+  }
+
+  .alphabet-btn {
+    width: 35px;
+    height: 35px;
+    margin: 3px;
+    font-size: 1rem;
+  }
+
+  .score-container {
+    font-size: 0.9rem;
+    padding: 8px;
+  }
+
+  .score-container span {
+    font-size: 1.3rem;
+  }
+
+  .game-info {
+    font-size: 0.9rem;
+  }
+
+  #button-container {
+    flex-direction: column;
+  }
+
+  #button-container button {
+    margin: 5px 0;
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 1.8rem;
+  }
+
+  .letter-box {
+    width: 35px;
+    height: 35px;
+    font-size: 1rem;
+    margin: 2px;
+  }
+
+  .alphabet-btn {
+    width: 30px;
+    height: 30px;
+    margin: 2px;
+    font-size: 0.9rem;
+  }
+
+  .score-container {
+    font-size: 0.8rem;
+    padding: 6px;
+  }
+
+  .score-container span {
+    font-size: 1.2rem;
+  }
+
+  .game-info {
+    font-size: 0.8rem;
+  }
+
+  #button-container button {
+    font-size: 0.9rem;
+  }
+}
