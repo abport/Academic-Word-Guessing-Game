@@ -1,5 +1,3 @@
-You're right—thank you for pointing that out! The links in markdown should be formatted to correspond with the actual section headings. Here's the corrected and fully functional `README.md` with proper anchor links that will work when viewed on GitHub:
-
 # Academic Word Guessing Game
 
 Welcome to the **Academic Word Guessing Game**! This interactive web-based game challenges users to guess academic words based on their definitions and parts of speech. It's a fun and engaging way to enhance your vocabulary.
