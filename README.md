@@ -76,5 +76,3 @@ We welcome contributions to improve the game! If you have any suggestions or bug
 Feel free to [open an issue](https://github.com/abport/academic-word-guessing-game/issues) if you encounter any problems or have questions.
 
 Happy guessing!
-
-```
