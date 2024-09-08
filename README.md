@@ -2,8 +2,11 @@
 
 Welcome to the **Academic Word Guessing Game**! This interactive web-based game challenges users to guess academic words based on their definitions and parts of speech. It's a fun and engaging way to enhance your vocabulary.
 
+![Projects](https://github.com/abport/Academic-Word-Guessing-Game/blob/main/screenshot.png) 
+
 ## Table of Contents
 
+- [Demo](#demo)
 - [Features](#features)
 - [Technologies Used](#technologies-used)
 - [How to Run the Project](#how-to-run-the-project)
@@ -12,6 +15,16 @@ Welcome to the **Academic Word Guessing Game**! This interactive web-based game 
 - [License](#license)
 - [Acknowledgements](#acknowledgements)
 
+## Demo
+
+Check out the 
+<a href="https://abport.github.io/Academic-Word-Guessing-Game/"
+    ><img
+      src="https://img.shields.io/static/v1?label=&message=Live%20Demo%20Here&color=orange"
+      height="25"
+  /></a>
+
+  
 ## Features
 
 - **Word Guessing**: Guess hidden academic words based on their definitions and parts of speech.
