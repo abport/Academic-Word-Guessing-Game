@@ -1,9 +1,9 @@
-Here's a comprehensive `README.md` for your GitHub repository:
+Here’s the formatted `README.md` for your GitHub repository:
 
 ```markdown
 # Academic Word Guessing Game
 
-Welcome to the Academic Word Guessing Game! This interactive web-based game challenges users to guess academic words based on their definitions and parts of speech. The game provides an engaging way to test and improve vocabulary skills.
+Welcome to the **Academic Word Guessing Game**! This interactive web-based game challenges users to guess academic words based on their definitions and parts of speech. It's a fun and engaging way to enhance your vocabulary.
 
 ## Table of Contents
 
@@ -13,28 +13,29 @@ Welcome to the Academic Word Guessing Game! This interactive web-based game chal
 - [File Structure](#file-structure)
 - [Contributing](#contributing)
 - [License](#license)
+- [Acknowledgements](#acknowledgements)
 
 ## Features
 
-- **Word Guessing**: Guess the hidden academic word based on its definition and part of speech.
+- **Word Guessing**: Guess hidden academic words based on their definitions and parts of speech.
 - **Score Tracking**: Keep track of your score and mistakes.
-- **Dynamic Keyboard**: Alphabet buttons that get disabled as you guess letters.
-- **Game Control**: Options to skip a word or give up.
-- **Responsive Design**: Optimized for both desktop and mobile devices.
+- **Dynamic Keyboard**: Alphabet buttons that disable after guessing letters.
+- **Game Control**: Skip or give up on a word at any point.
+- **Responsive Design**: Works seamlessly on both desktop and mobile devices.
 
 ## Technologies Used
 
-- **HTML**: For structuring the web page.
-- **CSS**: For styling the application with modern and responsive design.
-- **JavaScript**: For the game logic and interactivity.
-- **Bootstrap**: For responsive layout and UI components.
-- **Fetch API**: For loading game data from a JSON file.
+- **HTML**: Structure of the web page.
+- **CSS**: Styling the application with a modern, responsive design.
+- **JavaScript**: Game logic and interactivity.
+- **Bootstrap**: Responsive layout and UI components.
+- **Fetch API**: Fetches word data from a JSON file.
 
 ## How to Run the Project
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/abport/academic-word-guessing-game.git
+   git clone https://github.com/yourusername/academic-word-guessing-game.git
    ```
 
 2. **Navigate to the Project Directory**:
@@ -43,36 +44,41 @@ Welcome to the Academic Word Guessing Game! This interactive web-based game chal
    ```
 
 3. **Open the `index.html` File**:
-   You can open the `index.html` file in your web browser to start playing the game.
+   Open the `index.html` file in your web browser to start playing the game.
 
 4. **Serve Locally (Optional)**:
-   If you prefer to run a local server, you can use a tool like `Live Server` in VS Code or any other local server setup.
+   You can use a tool like `Live Server` in VS Code or any local server setup to run the game locally.
 
 ## File Structure
 
-- `index.html`: Main HTML file containing the structure of the game.
-- `styles.css`: CSS file for custom styling.
-- `script.js`: JavaScript file containing the game logic.
-- `words.json`: JSON file with academic words, definitions, and parts of speech.
+- `index.html`: Main HTML file for the game.
+- `styles.css`: CSS file for styling.
+- `script.js`: JavaScript file with game logic.
+- `words.json`: JSON file containing the academic words, definitions, and parts of speech.
 
 ## Contributing
 
-We welcome contributions to improve the game! If you have any suggestions or bug fixes, please follow these steps:
+We welcome contributions! To contribute:
 
 1. Fork the repository.
 2. Create a new branch (`git checkout -b feature/your-feature`).
 3. Make your changes.
-4. Commit your changes (`git commit -am 'Add new feature'`).
-5. Push to the branch (`git push origin feature/your-feature`).
+4. Commit your changes (`git commit -am 'Add feature'`).
+5. Push to your branch (`git push origin feature/your-feature`).
 6. Open a Pull Request.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ## Acknowledgements
 
-- **Bootstrap**: For the responsive and beautiful UI components.
+- **Bootstrap**: For providing the responsive UI components.
 - **FontAwesome**: For the icons used in the game.
 
 ---
 
-Feel free to [open an issue](https://github.com/abport/academic-word-guessing-game/issues) if you encounter any problems or have questions.
+Feel free to [open an issue](https://github.com/yourusername/academic-word-guessing-game/issues) if you encounter any problems or have questions.
 
 Happy guessing!
+```
